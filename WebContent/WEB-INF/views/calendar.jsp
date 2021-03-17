@@ -17,6 +17,16 @@
     </script>
   </head>
   <body>
-    <div id='calendar'></div>
+  	<div id='container' style='display: flex; justify-content: space-between;'>
+    	<div id='calendar' style='margin:5px; height: 500px; width: 500px'></div>
+    	<div id='reservation morning'>
+    		<img src='image/fitness-4006934_1920.jpg' 
+    			style='margin:5px; height: 500px; width: 400px; opacity: 0.5; filter: alpha(opacity=40);'/>
+    	</div>	
+    	<div id='reservation evening'>
+    		<img src='image/machines-91849_1920.jpg'
+    			style='margin:5px; height: 500px; width: 400px; opacity: 0.5; filter: alpha(opacity=40);'/>
+    	</div>
+    </div>	
   </body>
 </html>
