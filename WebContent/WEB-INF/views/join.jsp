@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form>
+	<form action="" method="">
 		이름: <input type="text" name="name" /><br>
 		ID: <input type="text" name="id" /> <br>
 		PASSWORD: <input type="text" name="pw" /><br>
@@ -16,7 +16,7 @@
 		이메일: <input type="email" name="email" /><br>
 		연락처: <input type="text" name="phone" /><br>
 		성별:
-			<select id="gender">
+			<select id="gender"> 
 				<option value="">선택</option>
 				<option value="man">남자</option>
 				<option value="woman">여자</option>
